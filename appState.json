@@ -34,12 +34,37 @@
         "children": [],
         "isRemovable": true,
         "filePath": "package.json"
+      },
+      "65c9f2e4-cfa1-4b1a-b5ab-9ac2e69c0b44": {
+        "id": "65c9f2e4-cfa1-4b1a-b5ab-9ac2e69c0b44",
+        "parent": null,
+        "name": "newFFF.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "newFFF.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs14.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "newFFF"
+        },
+        "triggers": [],
+        "lastUpdated": 1626155725505
       }
     },
     "openFiles": [
-      "55432477-28cc-4266-98cf-b299e222e102"
+      "55432477-28cc-4266-98cf-b299e222e102",
+      "65c9f2e4-cfa1-4b1a-b5ab-9ac2e69c0b44"
     ],
-    "currentFileId": "55432477-28cc-4266-98cf-b299e222e102",
+    "currentFileId": "65c9f2e4-cfa1-4b1a-b5ab-9ac2e69c0b44",
     "resources": {
       "cognitoIndunilUserPool": {
         "name": "cognitoIndunilUserPool",
@@ -300,6 +325,17 @@
             ]
           }
         }
+      },
+      "snsTestSNS": {
+        "name": "snsTestSNS",
+        "type": "SNS",
+        "config": {
+          "topicMode": 1,
+          "topicName": "TestSNS",
+          "topicArn": "arn:aws:sns:us-east-1:318300609668:TestSNS",
+          "snsType": 0,
+          "subscriptions": []
+        }
       }
     },
     "customTemplate": {
@@ -339,7 +375,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1626155582299
+    "lastSave": 1626155746374
   },
   "VCS_STATE": {
     "provider": "GitHub",
